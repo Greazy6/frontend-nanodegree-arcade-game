@@ -126,7 +126,7 @@ Player.prototype.reset = function(){
 }
 
 
-//6 emenys, yeah thats right 6 enemeys on a small board it will make the game hard
+//6 emenys, yeah thats right 6 enemey on a small board it will make the game hard
 
 var enemy1 = new Enemy(0, 60, 100);
 var enemy2 = new Enemy(0, 145, 200);
