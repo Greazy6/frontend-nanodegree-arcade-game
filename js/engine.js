@@ -14,6 +14,8 @@
  * a little simpler to work with.
  */
 
+ //commit
+
 var Engine = (function(global) {
     /* Predefine the variables we'll be using within this scope,
      * create the canvas element, grab the 2D context for that canvas
@@ -153,6 +155,7 @@ var Engine = (function(global) {
         });
 
         player.render();
+        gem.render();
     }
 
     /* This function does nothing but it could have been a good place to
@@ -172,7 +175,8 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-boy.png',
+        'images/Gem-Blue.png'
     ]);
     Resources.onReady(init);
 
